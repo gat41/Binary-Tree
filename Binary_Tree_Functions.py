@@ -81,6 +81,6 @@ def print_tree(root):
         if toBePrintedNodes == 0:
             if nextLevelNodes == 0:
                 break
-            print()
+            # print()
             toBePrintedNodes = nextLevelNodes
             nextLevelNodes = 0
